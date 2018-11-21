@@ -14,5 +14,7 @@ function quit_when_fail {
   fi
 }
 
+echo $(whoami)
+
 run Install_node-modules_from_NPM yarn install
 run ESLint yarn lint
