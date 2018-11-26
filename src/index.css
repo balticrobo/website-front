@@ -1,5 +1,10 @@
 body {
+  margin: 0;
+  padding: 0;
   background-color: black;
   color: white;
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: 'Lato', sans-serif;
+}
+span {
+  padding: 8px;
 }
