@@ -4,6 +4,7 @@
   "private": true,
   "license": "MIT",
   "dependencies": {
+    "prop-types": "^15.6.2",
     "react": "^16.6.3",
     "react-app-polyfill": "^0.1.3",
     "react-dom": "^16.6.3",

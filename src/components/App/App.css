@@ -1,17 +1,19 @@
 #header-container {
   max-width: 1000px;
   margin: 0 auto;
-  height: 70px;
 }
+
 #content-container {
   max-width: 1000px;
   margin: 0 auto;
   height: 300px;
+  padding: 100px;
 }
+
 .header-bar {
   height: 70px;
   width: 100%;
-  text-align:right;
+  text-align: right;
 }
 
 .header-bar ul {
@@ -48,5 +50,20 @@
 .content {
   width: 100%;
   background-image: url("gradient.png");
-  background-size: cover;
+  background-size: 100% 156px;
+  background-repeat: no-repeat;
+}
+
+.title-block {
+  background-color: #4AA9C0;
+  margin-left: 100px;
+  color: black;
+  height: 60px;
+  width: 400px;
+}
+
+.title-block span {
+  margin: 10px;
+  line-height: 58px;
+  font-size: 36px;
 }
